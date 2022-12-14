@@ -5,10 +5,10 @@
 // @description:zh-CN   经典THBWiki角色列表，但或许……也有点新东西
 // @home-url            https://github.com/abbaccadd0/Classical-THBWiki-Character-List
 // @namespace           abbaccadd0
-// @version             0.0.1
+// @version             0.0.2
 // @author              abbaccadd0
 // @license             MIT License
-// @run-at              document-start
+// @run-at              document-end
 // @match               *://thwiki.cc/index.php?title=%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*
 // @match               *://thwiki.cc/%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*
 // ==/UserScript==
