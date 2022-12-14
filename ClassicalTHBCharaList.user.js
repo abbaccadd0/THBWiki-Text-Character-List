@@ -11,6 +11,8 @@
 // @run-at              document-end
 // @match               *://thwiki.cc/index.php?title=%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*
 // @match               *://thwiki.cc/%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*
+// @updateURL           https://raw.githubusercontent.com/abbaccadd0/Classical-THBWiki-Character-List/main/ClassicalTHBCharaList.user.js
+// @downloadURL         https://raw.githubusercontent.com/abbaccadd0/Classical-THBWiki-Character-List/main/ClassicalTHBCharaList.user.js
 // ==/UserScript==
 
 (function() {
