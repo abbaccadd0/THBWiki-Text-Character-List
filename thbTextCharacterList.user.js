@@ -3,16 +3,16 @@
 // @name:zh-CN          经典THBWiki角色列表
 // @description         Restore old THBWiki character list
 // @description:zh-CN   经典THBWiki角色列表，但或许……也有点新东西
-// @home-url            https://github.com/abbaccadd0/Classical-THBWiki-Character-List
+// @home-url            https://github.com/abbaccadd0/THBWiki-Text-Character-List
 // @namespace           abbaccadd0
-// @version             230419.2156
+// @version             230419.2218
 // @author              abbaccadd0
 // @license             MIT License
 // @run-at              document-end
 // @match               *://thwiki.cc/index.php?title=%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*
 // @match               *://thwiki.cc/%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*
-// @updateURL           https://raw.githubusercontent.com/abbaccadd0/Classical-THBWiki-Character-List/main/ClassicalTHBCharaList.user.js
-// @downloadURL         https://raw.githubusercontent.com/abbaccadd0/Classical-THBWiki-Character-List/main/ClassicalTHBCharaList.user.js
+// @updateURL           https://raw.githubusercontent.com/abbaccadd0/THBWiki-Text-Character-List/main/thbTextCharacterList.user.js
+// @downloadURL         https://raw.githubusercontent.com/abbaccadd0/THBWiki-Text-Character-List/main/thbTextCharacterList.user.js
 // ==/UserScript==
 
 (function() {
