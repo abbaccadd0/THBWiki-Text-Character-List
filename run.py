@@ -142,10 +142,10 @@ now = datetime.now()
 listJSVersion = now.strftime("%y%m%d.%H%M")
 listJS = open("thbTextCharacterList.user.js", "w+", encoding="UTF-8")
 listJS.write(
-    "// ==UserScript==\n// @name                Classical THBWiki Character List\n// @name:zh-CN          经典THBWiki角色列表\n// @description         Restore old THBWiki character list\n// @description:zh-CN   经典THBWiki角色列表，但或许……也有点新东西\n// @home-url            https://github.com/abbaccadd0/Classical-THBWiki-Character-List\n// @namespace           abbaccadd0\n// @version             "
+    "// ==UserScript==\n// @name                Classical THBWiki Character List\n// @name:zh-CN          经典THBWiki角色列表\n// @description         Restore old THBWiki character list\n// @description:zh-CN   经典THBWiki角色列表，但或许……也有点新东西\n// @home-url            https://github.com/abbaccadd0/THBWiki-Text-Character-List\n// @namespace           abbaccadd0\n// @version             "
     + listJSVersion
     + "\n"
-    + "// @author              abbaccadd0\n// @license             MIT License\n// @run-at              document-end\n// @match               *://thwiki.cc/index.php?title=%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*\n// @match               *://thwiki.cc/%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*\n// @updateURL           https://raw.githubusercontent.com/abbaccadd0/Classical-THBWiki-Character-List/main/ClassicalTHBCharaList.user.js\n// @downloadURL         https://raw.githubusercontent.com/abbaccadd0/Classical-THBWiki-Character-List/main/ClassicalTHBCharaList.user.js\n// ==/UserScript==\n\n"
+    + "// @author              abbaccadd0\n// @license             MIT License\n// @run-at              document-end\n// @match               *://thwiki.cc/index.php?title=%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*\n// @match               *://thwiki.cc/%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8*\n// @updateURL           https://raw.githubusercontent.com/abbaccadd0/THBWiki-Text-Character-List/main/thbTextCharacterList.user.js\n// @downloadURL         https://raw.githubusercontent.com/abbaccadd0/THBWiki-Text-Character-List/main/thbTextCharacterList.user.js\n// ==/UserScript==\n\n"
     + "(function() {\n    'use strict';\n\n    // Your code here...\n    document.getElementById('chara-list').style.wordBreak=\"keep-all\";\n    document.getElementById('chara-list').innerHTML = \""
     + temp
     + '";\n'
