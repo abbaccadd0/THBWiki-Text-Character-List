@@ -140,7 +140,7 @@ classicalList = oldCharaList.read()
 temp = classicalList.replace("\n", "")
 now = datetime.now()
 listJSVersion = now.strftime("%y%m%d.%H%M")
-listJS = open("ClassicalTHBCharaList.user.js", "w+", encoding="UTF-8")
+listJS = open("thbTextCharacterList.user.js", "w+", encoding="UTF-8")
 listJS.write(
     "// ==UserScript==\n// @name                Classical THBWiki Character List\n// @name:zh-CN          经典THBWiki角色列表\n// @description         Restore old THBWiki character list\n// @description:zh-CN   经典THBWiki角色列表，但或许……也有点新东西\n// @home-url            https://github.com/abbaccadd0/Classical-THBWiki-Character-List\n// @namespace           abbaccadd0\n// @version             "
     + listJSVersion
