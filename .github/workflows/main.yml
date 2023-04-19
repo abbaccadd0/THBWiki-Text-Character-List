@@ -25,6 +25,7 @@ jobs:
         cd Classical-THBWiki-Character-List
         pip install numpy
         pip install requests
+        python run.py
 
     - name: commit
       run: |
