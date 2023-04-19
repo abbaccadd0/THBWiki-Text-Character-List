@@ -22,7 +22,6 @@ jobs:
 
     - name: generate script
       run: |
-        cd Classical-THBWiki-Character-List
         pip install numpy
         pip install requests
         python run.py
