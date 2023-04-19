@@ -22,6 +22,7 @@ jobs:
 
     - name: generate script
       run: |
+        sudo timedatectl set-timezone "Asia/Shanghai"
         pip install numpy
         pip install requests
         python run.py
