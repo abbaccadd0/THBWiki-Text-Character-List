@@ -153,3 +153,6 @@ listJS.write(
     + "})();\n"
     + 'var mode = true;\nfunction listSwitch() {\n  if (mode) {\n    this.classList.remove("switch");\n    this.classList.add("switch", "disabled");\n    this.textContent = "单列模式";\n    mode = false;\n    console.log("切换至灰色");\n  } else {\n    this.classList.remove("switch", "disabled");\n    this.classList.add("switch");\n    this.textContent = "多列模式";\n    mode = true;\n    console.log("切换至彩色");\n  };\n};'
 )
+# 删除临时文件
+os.remove("thbChara.html")
+os.remove("oldCharaList.html")
