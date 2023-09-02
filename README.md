@@ -1,4 +1,4 @@
-# THBWiki文字角色列表
+# THBWiki纯文字角色列表
 <div align="center">
 「THBWiki Text Character List」
 </div>
