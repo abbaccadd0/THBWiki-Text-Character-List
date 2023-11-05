@@ -5,7 +5,7 @@
 // @description:zh-CN   经典THBWiki角色列表，但或许……也有点新东西
 // @home-url            https://github.com/abbaccadd0/THBWiki-Text-Character-List
 // @namespace           abbaccadd0
-// @version             231029.1310
+// @version             231105.1310
 // @author              abbaccadd0
 // @license             MIT License
 // @run-at              document-end
